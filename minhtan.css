@@ -120,3 +120,8 @@ p {
 .w3-hover-grey:hover {
 	border-top-right-radius: 5px;
 }
+@media (max-width: 600px) {
+	.w3-modal-content {
+		margin: 0 66px;
+	}
+}
