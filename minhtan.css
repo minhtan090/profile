@@ -109,7 +109,7 @@ p {
 }
 .w3-container p {
 	padding-right: none !important;
-	justify-content: center;
+	font-size: 11px;
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -122,14 +122,21 @@ p {
 .w3-jumbo {
 	font-size: 18px !important;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 40%;
+	bottom: 0;
+	transform: translate(0 -50);
 }
-.w3-hover-grey:hover {
+.heart i {
+	padding-left: 135px;
+}
+/* .w3-hover-grey:hover {
 	border-top-right-radius: 5px;
-}
+} */
 @media (max-width: 600px) {
 	.w3-modal-content {
 		margin: 0 66px;
+	}
+	.heart i {
+		padding-left: 125px !important;
 	}
 }
