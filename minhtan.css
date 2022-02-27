@@ -27,6 +27,7 @@ body {
 	background-color: #242628;
 	overflow: hidden;
 	margin: 0 30px;
+	box-shadow: yellow 0 0 7px;
 }
 
 .card__img {
@@ -54,6 +55,10 @@ body {
 	background-clip: text;
 	-webkit-background-clip: text;
 	background-image: linear-gradient(rgb(83, 231, 108), aqua, blue);
+}
+.card h2,
+.card p {
+	text-shadow: #00853e 0px 0px 10px;
 }
 img {
 	width: 100%;
@@ -111,6 +116,9 @@ p {
 	background-image: linear-gradient(to right, red, blue, aqua);
 }
 
+.w3-modal-content {
+	top: 210px;
+}
 .w3-jumbo {
 	font-size: 18px !important;
 	position: absolute;
